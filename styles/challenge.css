@@ -1,0 +1,41 @@
+.challenge {
+    align-items: center;
+    text-align: center;
+}
+
+.challenge h4 {
+    font: var(--body4);
+    font-weight: lighter;
+    margin: 0;
+    margin: 40px 16px 24px;
+}
+
+.challenge h5 {
+    font: var(--body5);
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .challenge {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+        align-items: center;
+        text-align: center;
+        block-size: 600px;
+        gap: 24px; 
+    }
+
+    .challenge h4 {
+        font: var(--body3);
+        font-weight: lighter;
+        margin: 0;
+    }
+    
+    .challenge h5 {
+        font: var(--headline5);
+        margin: 0;
+    }
+
+    
+}
